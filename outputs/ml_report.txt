@@ -1,0 +1,26 @@
+Automotive Sensor Fault Detection Report
+
+This report shows the performance of a machine learning model trained to
+classify vehicle sensor conditions.
+
+Fault classes:
+- normal
+- high_temperature
+- low_battery
+- sensor_anomaly
+
+Model:
+Random Forest Classifier
+
+Classification Report:
+
+                  precision    recall  f1-score   support
+
+high_temperature       0.50      1.00      0.67         1
+     low_battery       0.33      1.00      0.50         1
+          normal       0.00      0.00      0.00         2
+  sensor_anomaly       0.00      0.00      0.00         2
+
+        accuracy                           0.33         6
+       macro avg       0.21      0.50      0.29         6
+    weighted avg       0.14      0.33      0.19         6
